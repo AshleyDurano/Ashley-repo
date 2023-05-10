@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <id>020202</id>
+    <firstname>Asshh</firstname>
+    <lastname>Rodriguezz</lastname>
+    <address>Danao</address>
+  </user>
+  <user>
+    <id>505050</id>
+    <firstname>iring</firstname>
+    <lastname>sungkaban</lastname>
+    <address>tulay guinsay</address>
+  </user>
+  <user>
+    <id>2121</id>
+    <firstname>mingming</firstname>
+    <lastname>pinakaloves</lastname>
+    <address>tulay danao</address>
+  </user>
+  <user>
+    <id>231123</id>
+    <firstname>Ashley</firstname>
+    <lastname>Rodriguez</lastname>
+    <address>Guinsay, Tulay, Danao City Cebu</address>
+  </user>
+  <user>
+    <username>asd<username/>
+    <password>asd<password/>
+  </user>
+</users>

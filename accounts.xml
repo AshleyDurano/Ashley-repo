@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  
+  <user>
+    <id>301555</id>
+    <username>ashley666</username>
+    <password>6666</password>
+    <firstname>Ashley</firstname>
+    <lastname>Rodriguez</lastname>
+    <address>Cebu Technological University</address>
+    <gender>Programming</gender>
+    <course>Bachelor Of Science in Information Technology</course>
+    <department>College Of Technology</department>
+    <date>2023-03-29</date>
+  </user>
+</users>
