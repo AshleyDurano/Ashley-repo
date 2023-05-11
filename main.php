@@ -14,13 +14,15 @@ exit();
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>    
+
 </head>
 <body class="index-body">
 <header class="header-main">
+
     <nav class="nav-main">
         <p>MYBLOG</p>
         <a href="#">Home</a>
-        <a href="#">Contacts</a>
         <a href="../MYBLOG/registeration.html">Sign up</a>   
         <a href="logout.php">Log out</a>
          

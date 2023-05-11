@@ -14,7 +14,9 @@ body {
   
     min-height: 100vh;
 }
-
+.register-span {
+  visibility: hidden;
+}
 
 .header {
   padding: 10%;
@@ -778,16 +780,59 @@ thead {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
   }
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1%;
+    background: linear-gradient(268deg, #00968891, #ffffff00);
+  
+  }
+  nav a {
+    display: none;
+  }
+  .form-control2 {
+    border: solid 1px white;
+    height: 50px;
+    border-radius: 15px 1px 25px 0px;
+    color: white;
+    text-align: center;
+    border-bottom: solid 2px #000000;
+    font-size: 27px;
+    width: 250px;
+    margin: 10px;
+    background: #81655b3d;
+}
+.Log-in-button:hover {
+  transition: 2s;
+ background-color: gray;
+
+}
+.text-insides {
+  margin: 0;
+}
+.text-insides center{
+  margin: 0;
+}
+.form-group {
+    line-height: 5;
+}
  button {
     padding: 9px;
     margin: 9px;
     width: 28%;
     font-weight: 600;
+}
+h1.text-onside1 {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
 }
 .text-inside p {
   position: absolute;
@@ -812,70 +857,116 @@ thead {
   -webkit-text-fill-color: transparent;
   transition: 2s ease-out;
 }
+
 .img-card {
-  float: left;
-  width: 60%;
-  position: relative;
-  background-image: url(trans.png);
-  background-size: cover;
-  height: 40rem;
-  overflow: hidden;
-  margin-top: 10%;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 20%;
+  visibility: hidden;
 }
-.left-form {
-  float: left;
-  width: 100%;
-  overflow: hidden;
+.log-in-form::before{
+  display: none;
 }
-.text-insides {
-  float: left;
-  height: 400px;
-  width: 500px;
-  margin: 55px;
-}
-.log-in-form {
+.log-in-form .log-in-form {
   display: grid;
   justify-content: center;
   justify-items: center;
   align-content: space-evenly;
   line-height: 3rem;
-  height: 125vh;
-  align-items: center;
-}.login {
-  float: right;
-  width: 239%;
-  position: relative;
+  height: 100vh;
+  align-items: center
+}
+
+.container-form{
+  display: none;
+}
+.login {
   background-image: url(log.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
   border-radius: 25px;
-  border: solid 2px #4caf508c;
-}.row {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  left: 0;
+  top: 170px;
+  height: 65%;
+}
+
+.registration {
+  background-image: url(reg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  left: 0;
+  top: 170px;
+  height: 65%;
+}
+.row {
   border: solid 2px white;
   border-radius: 0px 0px 25px 25px;
   margin-top: 3%;
   position: relative;
   top: 12px;
 }
-.registration {
-  width: 90%;
-  position: relative;
-  background-image: url(reg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-  border-radius: 25px;
-  border: solid 2px #4caf508c;
-  margin-left: auto;
-  margin-right: auto;
+.form-group {
+  line-height: 2.7rem;
 }
-
+.click-login p{
+  width: 120px;
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(249deg, #4CAF50 20%, #009688 50%, white 50%);
+  background-size: 200%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px;
+  transition: 2s ease-out;
+  border: none;
+  line-height: 2.3rem;
+  text-align: center;
+}
+.twos-button {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.register-span {
+  color: #E91E63;
+  font-size: 3vh;
+  visibility: visible;
+}
+.register-span .register-cont{
+  text-decoration: underline;
+  color: #ffffff;
+  background: linear-gradient(45deg, #ff0000, #c000ff);
+  padding: 7px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  border-bottom: solid 2px red;
+  font-family: 'Poppins', sans-serif;
+}
+.row {
+  margin: 0;
+  border: none;
+}
+.left-form {
+  margin: 0;
+}
+.Log-in-button {
+  padding: 10px;
+  margin: 5px;
+  font-weight: 600;
+  color: white;
+  border: solid 1px;
+  width: 50%;
+  height: 100%;
+  background: #4cafa8;
+}
 
 
 }
