@@ -967,6 +967,25 @@ h1.text-onside1 {
   height: 100%;
   background: #4cafa8;
 }
+}
 
 
+@media screen and (max-width: 375px) {
+  .register-span {
+    color: #E91E63;
+    font-size: 2.7vh;
+    visibility: visible;
+}
+.control-label1 {
+  display: none;
+}
+.register-form center h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: linear-gradient(45deg, #0de4ff 20%,#a37beb 40%, #ffaecc 60%, #4151a5 70%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 4.1vh;
+}
 }
